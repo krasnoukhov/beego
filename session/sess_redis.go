@@ -6,7 +6,7 @@ import (
 
 var redispder = &RedisProvider{}
 
-var MAX_POOL_SIZE = 20
+var MAX_POOL_SIZE = 100
 
 var redisPool chan redis.Conn
 
